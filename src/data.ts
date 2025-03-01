@@ -1,0 +1,40 @@
+import { University } from './types';
+
+export const universities: University[] = [
+  {
+    id: '1',
+    name: 'Tech University',
+    location: 'San Francisco, CA',
+    tuitionFee: 25000,
+    acceptanceRate: 75,
+    scholarshipAvailable: true,
+    minimumGPA: 3.0,
+    educationGap: 2,
+    description: 'A leading institution in technology and innovation, offering cutting-edge programs in computer science and engineering.',
+    imageUrl: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1000',
+  },
+  {
+    id: '2',
+    name: 'Global Institute',
+    location: 'Boston, MA',
+    tuitionFee: 30000,
+    acceptanceRate: 65,
+    scholarshipAvailable: true,
+    minimumGPA: 3.5,
+    educationGap: 3,
+    description: 'Renowned for its diverse international community and strong academic programs across multiple disciplines.',
+    imageUrl: 'https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc?auto=format&fit=crop&q=80&w=1000',
+  },
+  {
+    id: '3',
+    name: 'Arts Academy',
+    location: 'New York, NY',
+    tuitionFee: 22000,
+    acceptanceRate: 80,
+    scholarshipAvailable: false,
+    minimumGPA: 2.8,
+    educationGap: 5,
+    description: 'A creative hub for artists and designers, offering innovative programs in visual and performing arts.',
+    imageUrl: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1000',
+  },
+];

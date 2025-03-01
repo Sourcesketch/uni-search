@@ -1,0 +1,4 @@
+name,location,tuition_fee,acceptance_rate,scholarship_available,minimum_gpa,education_gap,description,image_url
+Tech University,San Francisco CA,25000,75,true,3.0,2,"A leading institution in technology and innovation, offering cutting-edge programs in computer science and engineering.",https://images.unsplash.com/photo-1562774053-701939374585
+Global Institute,Boston MA,30000,65,true,3.5,3,"Renowned for its diverse international community and strong academic programs across multiple disciplines.",https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc
+Arts Academy,New York NY,22000,80,false,2.8,5,"A creative hub for artists and designers, offering innovative programs in visual and performing arts.",https://images.unsplash.com/photo-1498243691581-b145c3f54a5a
