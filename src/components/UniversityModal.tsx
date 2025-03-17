@@ -29,8 +29,12 @@ export default function UniversityModal({
     "Bachelor's"
   );
 
-  const filteredCourses =
-    university.courses?.filter((course) => course.level === activeTab) || [];
+  // const filteredCourses =
+  //   university.courses?.filter((course) => course.level === activeTab) || [];
+  const filteredCourses = university.courses?.map((course) => ({
+    ...course,
+    university_id: university.id, // ✅ Ensure university_id is included
+  })) || [];
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
